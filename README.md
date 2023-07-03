@@ -1,10 +1,12 @@
 # Reinforecement-Learning-Project
 Trading cryptocurrencies using Reinforcement Learning
 
-Problem Statement
+Problem Statement:
+
 Trading cryptocurrencies is challenging for traders and investors to discern the best strategies for optimising their portfolios. With the ever-changing dynamics of market conditions, even the advantage of hindsight does not always reveal the most effective trading policies. In this project, we explored the use of Reinforcement Learning to train agents to automate the entire trading process and ultimately determine if a profit can be made.
 
-Methodology and Approach
+Methodology and Approach:
+
 The dataset consisted of 16 cryptocurrencies with each row representing 5-minute intervals from 1st January 2022 to 19th March 2023. Features included close/open prices, high/low prices, volume, etc. The following parameters need to be defined for each environment:
 State: The set of input features and variables the agent receives at timestep, t, to make a decision. This is fed into a policy (neural network) to output an action vector
 Action: The output vector from the policy. The agent will execute the output action at timestep, t (e.g., buy, hold, or sell)
