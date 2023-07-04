@@ -68,9 +68,9 @@ Note: In the figures, a return value exceeding 1.0 indicates we are profiting. F
 [6.8200 Final Report](./RL-Report.pdf)
 
 ## Notebooks
-- 01-initial-baseline-trader.ipynb: An initial baseline trading strategy to compare against our RL agents
-- 02-long-only-environment.ipynb: Environment 1 (long only)
-- 03-all_trained_agents-long_short_environment.ipynb: Environment 2 (long and short)
+- *01-initial-baseline-trader.ipynb*: An initial baseline trading strategy to compare against our RL agents
+- *02-long-only-environment.ipynb*: Environment 1 (long only)
+- *03-all_trained_agents-long_short_environment.ipynb*: Environment 2 (long and short)
 
 
 
