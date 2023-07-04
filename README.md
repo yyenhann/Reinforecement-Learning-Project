@@ -1,8 +1,6 @@
 # Reinforecement Learning Project: Trading Cryptocurrencies
 MIT 6.8200 Computational Sensorimotor Learning
 
-Group Members: Yen Hann Yoo, Rachel Duan, Katherine Wang
-
 ## Problem Statement
 
 Trading cryptocurrencies is challenging for traders and investors to discern the best strategies for optimising their portfolios. With the ever-changing dynamics of market conditions, even the advantage of hindsight does not always reveal the most effective trading policies. In this project, we explored the use of Reinforcement Learning to train agents to automate the entire trading process and ultimately determine if a profit can be made.
