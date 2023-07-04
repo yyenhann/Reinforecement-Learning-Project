@@ -1,5 +1,6 @@
 # Reinforecement Learning Project: Trading Cryptocurrencies
 MIT 6.8200 Computational Sensorimotor Learning
+Group Members: Yen Hann Yoo, Rachel Duan, Katherine Wang
 
 ## Problem Statement
 
