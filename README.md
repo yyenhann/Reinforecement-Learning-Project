@@ -56,7 +56,13 @@ Owing partially to their ability to handle continuous value action spaces, we ut
 
 - **Deep Deterministic Policy Gradients (DDPG)**: DDPG is an off-policy algorithm and uses a concept known as experience replay, which allows the agent to learn from past experiences, thereby maximizing its efficiency. Second, DDPG can handle continuous action spaces effectively, which are common in financial markets where buying and selling actions can take a range of values, not just binary decisions. Moreover, DDPG incorporates the actor-critic architecture, providing a balance between policy iteration and value iteration methods, and reducing the likelihood of policy degradation during updates.
 
+![My Test Image](./Env1-vs-Env2-Performances.png)
 
+Environment 2 outperformed Environment 1 (purely comparing the orange, green, and blue lines as those are the trained agents). In a long-only strategy, returns primarily rely on asset appreciation. However, our training dataset mainly covers the 2022 period, marked by significant declines in the cryptocurrency market. In such times, the optimal strategy for a long-only approach would involve holding cash during market downturns and selectively investing during upswings. But due to the softmax transformation applied to actions, the agent struggles to learn precise cash allocation during specific periods while allocating weights to different tokens in others. To address this, we propose using Environment 2, which allows partial positions in each token, providing a more suitable solution.
+
+![My Test Image](./PPO-Agent-Sample-Performances.png)
+
+Note: In the figures, a return value exceeding 1.0 indicates we are profiting. From evaluating on the validation set, it was found that the PPO agent yielded the best results in terms of absolute profit and Sharpe ratio. A Sharpe ratio above 2 is generally considered good in finance. The agent successfully optimised its strategy to minimise losses and generate stable profits. The portfolio growth for most agents remained steady without significant downward shocks, demonstrating the agent's ability to limit volatility and reduce standard deviation in rewards. The DDPG strategy (dark green), although computationally intensive, showed potential for further improvement. With more training time, the DDPG agent could have potentially outperformed PPO. For testing, see section 4.3 of the report.
 
 
 
