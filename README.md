@@ -64,7 +64,8 @@ Environment 2 outperformed Environment 1 (purely comparing the orange, green, an
 
 Note: In the figures, a return value exceeding 1.0 indicates we are profiting. From evaluating on the validation set, it was found that the PPO agent yielded the best results in terms of absolute profit and Sharpe ratio. A Sharpe ratio above 2 is generally considered good in finance. The agent successfully optimised its strategy to minimise losses and generate stable profits. The portfolio growth for most agents remained steady without significant downward shocks, demonstrating the agent's ability to limit volatility and reduce standard deviation in rewards. The DDPG strategy (dark green), although computationally intensive, showed potential for further improvement. With more training time, the DDPG agent could have potentially outperformed PPO. For testing, see section 4.3 of the report.
 
-
+## Report
+[6.8200 Final Report](./RL-Report.pdf)
 
 
 
